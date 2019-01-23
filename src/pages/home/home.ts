@@ -12,8 +12,10 @@ export class HomePage {
   imageURI:any;
   imageFileName:any;
 
-  constructor(public navCtrl: NavController) {
-
-  }
+  constructor(public navCtrl: NavController,
+    private transfer: FileTransfer,
+    private camera: Camera,
+    public loadingCtrl: LoadingController,
+    public toastCtrl: ToastController) {}
 
 }
