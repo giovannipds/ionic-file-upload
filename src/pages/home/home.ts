@@ -9,6 +9,9 @@ import { Camera, CameraOptions } from '@ionic-native/camera';
 })
 export class HomePage {
 
+  imageURI:any;
+  imageFileName:any;
+
   constructor(public navCtrl: NavController) {
 
   }
